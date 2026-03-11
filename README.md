@@ -26,7 +26,11 @@ cdn_prompts_guia/
 ├── python/
 │   └── pruebas_unitarias/
 │       ├── Pruebas_Unitarias_Guia.md    # Guía de estándares
-│       ├── Prompt Programador.md        # Instrucciones para crear pruebas
+│       └── Prompt Programador.md        # Instrucciones para crear pruebas
+├── csharp/
+│   └── pruebas_unitarias/
+│       ├── Pruebas_Unitarias_Guia_CSharp.md  # Guía de estándares para C#
+│       └── Prompt Programador.md             # Instrucciones para crear pruebas
 ├── [lenguaje]/
 │   └── [dominio]/
 │       ├── [Guia].md
@@ -45,7 +49,12 @@ cdn_prompts_guia/
 | `Pruebas_Unitarias_Guia.md` | Guía de mejores prácticas: AAA, mocks, fixtures, cobertura, estructura de tests |
 | `Prompt Programador.md` | Instrucciones para un agente que crea pruebas unitarias módulo por módulo |
 
-Flujo típico: **Programador** crea pruebas siguiendo la guía → **Supervisor** las revisa contra el mismo estándar.
+### C# — Pruebas unitarias
+
+| Archivo | Descripción |
+|---------|-------------|
+| `Pruebas_Unitarias_Guia_CSharp.md` | Guía de mejores prácticas para C#: AAA, mocks, fixtures, cobertura, estructura de tests |
+| `Prompt Programador.md` | Instrucciones para un agente que crea pruebas unitarias módulo por módulo |
 
 ---
 
